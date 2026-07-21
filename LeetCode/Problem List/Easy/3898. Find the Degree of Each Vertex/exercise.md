@@ -10,7 +10,7 @@ Return an integer array `ans` of size `n` where `ans[i]` represents the degree o
  
 
 #### **Example 1:**
-![image1](image/image1.png)
+![image1](images/image1.png)
 ```
 Input: matrix = [[0,1,1],[1,0,1],[1,1,0]]
 
@@ -25,7 +25,7 @@ Thus, the answer is [2, 2, 2].
 ```
 
 #### **Example 2:**
-![image2](image/image2.png)
+![image2](images/image2.png)
 ```
 Input: matrix = [[0,1,0],[1,0,0],[0,0,0]]
 
