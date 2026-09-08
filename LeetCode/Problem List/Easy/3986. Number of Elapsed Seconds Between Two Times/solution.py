@@ -4,7 +4,7 @@ class Solution:
     def secondsBetweenTimes(self, startTime: str, endTime: str) -> int:
         return (
             datetime.strptime(endTime, "%H:%M:%S") - 
-            datetime.strptime(endTime, "%H:%M:%S")
+            datetime.strptime(startTime, "%H:%M:%S")
         ).seconds
 
 startTime = "01:00:00"
