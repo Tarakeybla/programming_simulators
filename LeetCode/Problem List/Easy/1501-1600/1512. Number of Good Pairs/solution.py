@@ -6,6 +6,7 @@ class Solution:
         count: int = 0
         for start_point in range(len(nums)):
             for end_point in range(start_point + 1, len(nums)):
+                print(nums[start_point:end_point])
                 if nums[start_point] == nums[end_point]:
                     count += 1
         return count
